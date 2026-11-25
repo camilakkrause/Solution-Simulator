@@ -2,6 +2,8 @@
 
 A GPU-accelerated, physically based spectral ray-tracing desktop application written in Rust (`wgpu` + `eframe`/`egui`). **SolutionSimulator** reads a UV-Vis absorbance spectrum (`.txt`) and renders a 3D ISO 1042 Class A volumetric flask with accurate Beer–Lambert solution color, path-length transparency, glass/liquid refraction and reflection, concave capillary meniscus, etched markings, and spectral bench caustics.
 
+<img width="1362" height="892" alt="image" src="https://github.com/user-attachments/assets/6b4a8bd0-0a60-4183-956d-369fc83197f8" />
+
 ---
 
 ## Features & Optical Physics

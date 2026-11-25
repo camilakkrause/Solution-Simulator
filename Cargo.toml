@@ -1,0 +1,20 @@
+[package]
+name = "solution_simulator"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.87"
+resolver = "3"
+description = "Physically-based GPU spectral ray-tracing simulator for UV-Vis absorbance spectra in 3D volumetric flasks"
+
+[dependencies]
+eframe = { version = "0.31", default-features = false, features = ["wgpu", "default_fonts", "accesskit"] }
+bytemuck = { version = "1.21", features = ["derive"] }
+rfd = "0.15"
+image = { version = "0.25", default-features = false, features = ["png"] }
+pollster = "0.4"
+env_logger = "0.11"
+log = "0.4"
+
+[profile.release]
+opt-level = 3
+lto = "thin"

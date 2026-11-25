@@ -44,6 +44,11 @@ The parser skips the **first 2 header lines** and reads two numeric columns (`wa
 
 ## Requirements & Quick Start
 
+### Option A: Download Prebuilt Binary (Windows x64)
+1. Download `SolutionSimulator-v1.0.0-windows-x64.zip` from the [**Releases**](../../releases) page.
+2. Extract the `.zip` and double-click `solution_simulator.exe` (if Windows SmartScreen appears, click **More info → Run anyway**).
+
+### Option B: Build from Source
 - **Rust** `>= 1.87` (`rustup` / `cargo`)
 - A **DirectX 12**, **Vulkan**, or **Metal** compatible GPU
 
